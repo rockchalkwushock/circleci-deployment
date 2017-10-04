@@ -13,6 +13,9 @@
 [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/RockChalkDev)
 
+[![Alpha](https://img.shields.io/badge/alpha-release-orange.svg?style=flat-square)](https://circleci-deployment-alpha.now.sh)
+[![Beta](https://img.shields.io/badge/beta-release-yellow.svg?style=flat-square)](https://circleci-deployment-beta.now.sh)
+
 ## Notes
 
 1. React 16 Environment
