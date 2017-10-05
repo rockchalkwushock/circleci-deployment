@@ -16,6 +16,8 @@
 [![Alpha](https://img.shields.io/badge/alpha-release-orange.svg?style=flat-square)](https://circleci-deployment-alpha.now.sh)
 [![Beta](https://img.shields.io/badge/beta-release-yellow.svg?style=flat-square)](https://circleci-deployment-beta.now.sh)
 
+## Read the [article](https://medium.com/@RockChalkDev/automating-with-circleci-2-0-57de968bda90) on Medium.
+
 ## Notes
 
 1. React 16 Environment
