@@ -20,7 +20,7 @@
 
 1. React 16 Environment
 
-With the React 16 the requirement of some polyfills are needed for production and testing environments. Read more [here](https://gist.github.com/gaearon/9a4d54653ae9c50af6c54b4e0e56b583). This is why the `raf` package has been included and the reasoning behind `src/setupTests.js` (read more about that in the official `create-react-app` docs [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#initializing-test-environment)).
+With the React 16 the requirement of some polyfills are needed for production and testing environments. Read more [here](https://reactjs.org/docs/javascript-environment-requirements.html) and in the original [gist](https://gist.github.com/gaearon/9a4d54653ae9c50af6c54b4e0e56b583). This is why the `raf` package has been included and the reasoning behind `src/setupTests.js` (read more about that in the official `create-react-app` docs [here](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#initializing-test-environment)).
 
 2. Jest Snapshot Testing on Continuous Integration
 
