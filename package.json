@@ -3,10 +3,8 @@
   "version": "0.1.0",
   "license": "MIT",
   "private": true,
-  "description":
-    "Using CircleCi@2.0 to test, report, build, & deploy a create-react-app to Zeit's Now.",
-  "author":
-    "Cody Brunner <rockchalkwushock@icloud.com> (https://rcws-development.com)",
+  "description": "Using CircleCi@2.0 to test, report, build, & deploy a create-react-app to Zeit's Now.",
+  "author": "Cody Brunner <rockchalkwushock@icloud.com> (https://rcws-development.com)",
   "repository": "https://github.com/rockchalkwushock/circleci-deployment.git",
   "homepage": "https://github.com/rockchalkwushock/circleci-deployment#readme",
   "bugs": "https://github.com/rockchalkwushock/circleci-deployment/issues",
@@ -30,7 +28,9 @@
     }
   },
   "jest": {
-    "collectCoverageFrom": ["src/App.js"],
+    "collectCoverageFrom": [
+      "src/App.js"
+    ],
     "coverageThreshold": {
       "global": {
         "branches": 100,
@@ -41,7 +41,10 @@
     }
   },
   "lint-staged": {
-    "*.js": ["yarn prettier", "git add"]
+    "*.js": [
+      "yarn prettier",
+      "git add"
+    ]
   },
   "now": {
     "alias": [
@@ -49,13 +52,15 @@
       "circleci-deployment-beta",
       "circleci-deployment-production"
     ],
-    "files": ["./build"],
+    "files": [
+      "./build"
+    ],
     "name": "circleci-deployment"
   },
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-scripts": "1.0.15"
   },
   "devDependencies": {
     "codecov": "~2.3.0",
